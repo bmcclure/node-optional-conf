@@ -1,6 +1,6 @@
 {
   "name": "optional-conf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A wrapper around conf which makes storing the config to disk optional",
   "main": "index.js",
   "scripts": {
