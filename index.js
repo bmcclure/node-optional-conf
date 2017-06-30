@@ -1,6 +1,5 @@
 const Conf = require('conf')
 
-
 class OptionalConf extends Conf {
     constructor(opts) {
         this.persist = typeof opts.persist !== 'undefined' 
