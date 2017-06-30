@@ -1,5 +1,9 @@
 const Conf = require('conf')
+const fs = require('fs')
+const path = require('path')
+const makeDir = require('make-dir')
 
+const obj = () => Object.create(null);
 class OptionalConf extends Conf {
     constructor(opts) {
         super(opts)
