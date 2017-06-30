@@ -2,12 +2,10 @@ const Conf = require('conf')
 
 class OptionalConf extends Conf {
     constructor(opts) {
+        super(opts)
         this.persist = typeof opts.persist !== 'undefined' 
             ? opts.persist 
             : true
-        
-        super(opts)
-
         this.tempStore = {}
     }
 
