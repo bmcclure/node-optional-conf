@@ -42,8 +42,7 @@ with the constructor options.
 
 ## Author
 
-[bmcclure](https://github.com/bmcclure)
-[Ben McClure](ben.mcclure@gmail.com)
+[bmcclure](https://github.com/bmcclure) ([Ben McClure](ben.mcclure@gmail.com))
 
 ## License
 
